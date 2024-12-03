@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+  /* text-align: center; */
+  max-width: 70%;
+  margin: 30px auto;
+  border-radius: 20px;
+  /* background: url(../images/background.jpg); */
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.5);
+
+  animation-name: identifier; 
+  animation-duration: 2s;    
+  animation-iteration-count: infinite; 
+}
+
+@media (max-width: 500px){
+  #root{
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .info-container span.country {
+    font-size: 0.7rem;
+    margin-right: 8px;
+  }
+  
+  .info-container a {
+    font-size: 0.6rem;
+  }
+  
+  
+  .info-container h2.entry-title {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 1rem;
+  }
+  
+  .info-container p.trip-dates {
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
+  
+  .info-container p.entry-text {
+    line-height: 1.5;
+    font-size: 0.8rem;
+  }
+  
+
+}
+/* 
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
